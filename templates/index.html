@@ -4,7 +4,8 @@
 <title>my CV</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/6d56da10e8.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"> -->
+<link rel="stylesheet" type="text/css" href="../static/css/style.css">
 </head>
 <body>
 
@@ -85,16 +86,20 @@
     </div>
     <div>
       <div>
-        <i class="fa-regular fa-circle-right"></i>
-        <h3>Dining Philosepher Problem</h3>
+        <div class="section2">
+          <i class="fa-regular fa-circle-right"></i>
+          <h3>Dining Philosepher Problem</h3>
+        </div>
         <p>This project is about the concept of threads and their uses
           and their behaviour in memory in which we create a fixed
           number of threads to preform a routine.</p>
           <p>Tools&languages : VS code , C language.</p>
       </div>
       <div>
-        <i class="fa-regular fa-circle-right"></i>
-        <h3>Minishell</h3>
+        <div class="section3">
+          <i class="fa-regular fa-circle-right"></i>
+          <h3>Minishell</h3>
+        </div>
         <p>This project is about creating a mini bash that
           accpets an input and execute accordingly from
           simple commands like : ls/cat /grep ... , to builtins
@@ -102,8 +107,10 @@
           <p>Tools&languages : C language , readline library.</p>
       </div>
       <div>
-        <i class="fa-regular fa-circle-right"></i>
-        <h3>CUB3D aka wolfenstein 3d</h3>
+        <div class="section2">
+          <i class="fa-regular fa-circle-right"></i>
+          <h3>CUB3D aka wolfenstein 3d</h3>
+        </div>
         <p>On this project we explore the concept of
           raycasting and implement it by using rays and
           trigonometry math which enables us to render a
